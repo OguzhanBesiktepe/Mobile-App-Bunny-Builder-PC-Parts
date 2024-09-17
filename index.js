@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
-    databaseURL: "https://mobile-app-shopping-cart-default-rtdb.firebaseio.com/"
+    databaseURL: "https://mobile-app-shopping-cart-default-rtdb.firebaseio.com/" // Firebase Realtime Database 
 }
 
 const app = initializeApp(appSettings)
@@ -62,7 +62,7 @@ function clearInputFieldEl() {
     inputFieldEl.value = ""
 }
 
-function appendItemToShoppingListEl(item) {
+function appendItemToShoppingListEl(item) { 
     let itemID = item[0]
     let itemValue = item[1]
     
