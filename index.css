@@ -28,6 +28,17 @@ img { /* Our Image */
     margin: 0 auto;
 }
 
+#bunny-builder{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 0px;
+    margin: 8px;
+    font-family: Pacifico;
+    color: #31c5ff;
+}
+
 input {
     color: #8512dd;
     background-color: #DCE1EB;
